@@ -1,0 +1,4 @@
+.DS_Store
+typescript+rollup/node_modules/*
+typescript+rollup/dist/*
+typescript+rollup/yarn.lock

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "target": "ES2015",
+    "module": "es2015",
+    "outDir": "dist"
+    //"sourceMap": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
