@@ -1,44 +1,52 @@
 # akamai-edgeworkers-gettingstarted
 
-after downloading "typescript-rolleup"
+after downloading "typescript-rolleup" to your working directory
 
-1. get your .edgerc saved on your home directory
+## 1. get your .edgerc saved on your home directory
 
-2, install required packages
+## 2, install required packages
 ~~~
  yarn install
 ~~~
 
-2, etner your edgeworker info
+## 3, etner your edgeworker info
 ~~~
  yarn start
 ~~~
 
-3, create & start sandbox
+## 4, create & start sandbox
 ~~~
  yarn new-sandbox
  yarn start-sandbox
 ~~~
 
-4, do some code change
+## 5, do some code change
+ change ./src/main.ts
 
-5, update sandbox
+## 6, update sandbox
 ~~~
   yarn update
 ~~~
+this will compile your code and bundle requred package into simgle ./dist/main.js
+and upload it to sandbox.
 
-6, get your debug token updated
+## 7, get your debug token updated
 ~~~
   yarn token
 ~~~
 
-7, test your edgeworker code
+## 8, test your edgeworker code
 ~~~
   yarn test http://localhost:9550/path/
 ~~~
 
-8, if its working ok deploy it to staging & production
+## 9, if its working ok deploy it to staging & production
 ~~~
   yarn deploy
+~~~
+
+## 10, test it on staging or production
+~~~
+  yarn test https://yourdomain.com/edgeworker/path
 ~~~
 
