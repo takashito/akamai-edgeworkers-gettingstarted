@@ -28,7 +28,7 @@ you need to know your edgeworker name and property host name.
 ~~~
   yarn update
 ~~~
-this will compile your code and bundle requred package into simgle ./dist/main.js
+this will compile your code and bundle requred package into simgle ./dist/bundle.tgz
 and upload it to sandbox.
 
 
