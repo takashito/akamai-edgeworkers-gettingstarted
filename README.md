@@ -4,48 +4,53 @@ after downloading "typescript-rolleup" to your working directory
 
 ## 1. get your .edgerc saved on your home directory
 
-## 2, install required packages
-~~~
- yarn install
-~~~
+## 2, install package & etner your edgeworker info
 
-## 3, etner your edgeworker info
+you need to know your edgeworker name and property host name.
+
 ~~~
  yarn start
 ~~~
 
-## 4, create & start sandbox
+
+## 3, create & start sandbox
 ~~~
  yarn new-sandbox
  yarn start-sandbox
 ~~~
 
-## 5, do some code change
+
+## 4, do some code change
  change ./src/main.ts
 
-## 6, update sandbox
+
+## 5, update sandbox
 ~~~
   yarn update
 ~~~
 this will compile your code and bundle requred package into simgle ./dist/main.js
 and upload it to sandbox.
 
-## 7, get your debug token updated
+
+## 6, get your debug token updated
 ~~~
   yarn token
 ~~~
 
-## 8, test your edgeworker code
+
+## 7, test your edgeworker code
 ~~~
   yarn test http://localhost:9550/path/
 ~~~
 
-## 9, if its working ok deploy it to staging & production
+
+## 8, if its working ok deploy it to staging & production
 ~~~
   yarn deploy
 ~~~
 
-## 10, test it on staging or production
+
+## 9, test it on staging or production
 ~~~
   yarn test https://yourdomain.com/edgeworker/path
 ~~~
