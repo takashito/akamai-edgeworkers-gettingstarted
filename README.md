@@ -1,10 +1,23 @@
 # akamai-edgeworkers-gettingstarted
 
-after downloading "typescript-rolleup" to your working directory
+## 1. before you begin
 
-## 1. get your .edgerc saved on your home directory
++ install akamai CLI and degeworker cli
+```
+brew install akamai
+akamai install edgeworkers
+```
++ install httpie & akamai auth plugin
+```
+pip install --upgrade httpie
+pip install httpie-edgegrid
+```
++ get your .edgerc saved on your home directory
 
-## 2, install package & etner your edgeworker info
++ downlaod typescript-rollup project to your working directory
+
+
+## 2. install package & etner your edgeworker info
 
 you need to know your edgeworker name and property host name.
 
