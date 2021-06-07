@@ -7,11 +7,6 @@
 brew install akamai
 akamai install edgeworkers
 ```
-+ install httpie & akamai auth plugin
-```
-pip install --upgrade httpie
-pip install httpie-edgegrid
-```
 + get your .edgerc saved on your home directory
 
 + downlaod typescript-rollup project to your working directory
